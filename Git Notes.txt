@@ -1,0 +1,91 @@
+Git 
+
+Git: Version control system
+
+Why do we need this?
+
+problems without git
+- not collaboration system
+- merging manually
+- not version control
+- Risk of losing work
+
+
+problem solved with git
+- team collaboration
+- branching & merging
+- versions control
+- no lost work
+- fast development
+
+what we can do with git
+repo
+clone
+branches
+commit
+merge
+rollback 
+contribute open source
+flexible environment
+version control: modify, record, revert, compare, manage
+manage and create remote repo.
+data secure.
+pull request to merge with main branch
+
+
+limitations with other version control system?
+- no centralized architecture
+- changes can not be done offline.
+- file are managed by central server.
+
+why to use git over other version control system?
+- everyone gets a full copy of the project on their machine
+Note: git it only the one stop solution for all the problem.
+
+
+What is git?
+- version control(speed, security, data integrity)
+- 2005 (create of Linux cornel)
+
+
+install? -- done
+
+launch the git bash
+git --version (display the version of git)
+
+
+3 configuration levels
+- system level --system:
+	- top level
+	- /etc/git/config
+	- git config --list --system
+	- applicable to all the system on which git is installed.
+
+- global level --global
+	- next level after system
+	- user specific settings
+	- git config --list --global
+	- /.gitcofig
+
+- local level --local
+	- git config --list --local
+	- last level user repo level
+	- .git/config
+
+Note: local override the global and global override the system level.
+
+fatal: --local can only be used inside a git repository
+user.name
+user.email
+
+
+
+
+
+
+
+
+
+
+
+
