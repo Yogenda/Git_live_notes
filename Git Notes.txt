@@ -79,12 +79,71 @@ user.name
 user.email
 
 
+----------------------------------------------
+class 2
+change the default code editor to vscode: git config --global code.editor "code--wait"
+
+check the configurations list: git config --list
+
+Quiz
+Q. What are the characteristics of a version control system? 
+
+Select the correct answer 
+A. Recording changes to a file or set of files over time 
+B. Identifying who made the changes and when 
+C. Comparing and reverting to a previous state 
+D. All of the above   (C)
 
 
+Q. Which of the following would be true of how a distributed version control system is used? 
+
+Select the correct answer 
+A. Each developer would manually copy their files into a time-stamped directory 
+B. Every developer can check out project files from a central server, but would have to refer to the central server for project history details 
+C. Every developer would have a local copy of the entire repository including files and project history   (C)
+D. Every developer would have a local copy of the entire repository including files but excluding project history. 
 
 
+Q. What are the three levels of configurations available in Git? 
+
+Select the correct answer 
+A. System, Global, and Local  (C)
+B. System, Global, and User 
+C. Global, User, and Repository 
+D. User, System, and Global 
+
+Create a git repo
+create an empty directory --  (mkdir <dirName>)
+convert the dir to repo  -- git init
+to check the status -- git status
+it will take you to branch master without any commit.
+
+Note: git init command create an hidden directory that stores all the metadata required for it to function.
+
+to show hidden folder of .git --  (ls -la)
+to check the total number of files/folder -- ls -lrt
+check the physical working directory  --- pwd
+create and initialize dir at the same time -- git init <dirName>
 
 
+git maintain 3 snapshots of a file in separate dir.
+1. working directory- git init (git doesnot track the file.) 
+	to tract a file we have to stage the file.
+
+2. staging area: git add once the staging is done it stores the file into .git/index it called as staging or a index.
+	it send back to another area or repo that is local repo.
+
+3. local repo: git commit 
+
+Note: while committing it is important to add a message string using the -m flag if missing a default editor opens and ask for the comment.
+
+to check the logs -- git log
+- commit id
+- author
+- date
+- commit message
+
+to check the logs in one line -- git log --oneline
 
 
 
