@@ -145,6 +145,44 @@ to check the logs -- git log
 
 to check the logs in one line -- git log --oneline
 
+----------------------------------------------
+class 3
+echo "Message" >> fileName -- to edit the file
+echo "<html> </html>" >> index.html
+
+cat filename -- the content of file
+
+how to track between the stages.
+Tracking is use to check the difference b/w the file.
+Working dir, staging area, local repo
+
+git diff:-  b/w modified file in working dir and its staging.
+git diff --staged: diff b/w staged file and the last commit of same file
+commits are identified by using pointers called as head.
+
+3 version of file in repo
+- last commit is made as head
+- pen ultimate head is marked as head1
+- next head will be head 2 and so on
+
+NOTE: "git diff --staged" is similar to "git diff head"
+
+it will difficult for use to count the number of heads so its best practice to use the hash code eg:
+
+git diff <commit hash code>
+
+Revert to early commit
+git log
+git checkout
+git status
+git reset
+
+
+
+
+
+
+
 
 
 
