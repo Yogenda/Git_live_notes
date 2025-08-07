@@ -178,6 +178,70 @@ git status
 git reset
 
 
+----------------------------------------------
+class 4
+
+Delete a file in git
+- git rm <file name>: delete the file from staging are and working directory.
+
+	what if we want to delete the file only from the staging are?
+
+- git rm --cached <filename>
+- git status: to confirm
+
+Note: this file will be untracked as it is removed from the staging area.
+
+even if wee delete the file its commit history will remain in the repo. user need to know which version need to be restored and revert the deletion.
+
+git checkout <version> <filename>
+
+
+ignore file
+it is used to ignore the not import files.
+to add the file forcefully in the git for which pattern is matching use 
+-f flag
+
+
+rename the file
+- git mv <filename> <newfilename>
+- git add
+- git commit
+- git status
+
+
+QUIZ:
+Which of the following would result in a file being "untracked" in Git? 
+Select the correct answer 
+A. A file being added into the staging area 
+B. A file being committed into the local repository 
+C. A file being modified since last commit 
+D. A file being added to the working directory (C)
+
+
+Which of the following is correct about the "staging area? 
+Select the correct answer 
+A. A location that consists of all committed files 
+B. A location that collects all the files that would be included in the next commit  (C)
+C. A location consisting of the metadata that Git uses to manage files. 
+D. A location where untracked files reside 
+
+
+Which of the following statements is correct about the git directory content? 
+Select the correct answer 
+A. It contains all the staged files 
+B. It contains all the staged and tracked files 
+C. It contains all metadata that Git needs to function  (C)
+D. It contains the configurations specific to that repository 
+
+
+Which of the following command will display the status of the repository in Git? 
+Select the correct answer 
+A. git status'  (C)
+B. git log' 
+C. git init' 
+D. git branch' 
+
+ 
 
 
 
