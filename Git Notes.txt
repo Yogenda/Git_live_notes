@@ -247,8 +247,74 @@ GitHub
 web base git repository hosting service
 web interface for user to upload the files in there repo.
 
+Class 5 github notes
+
+it takes the complete commit history from local repo to remote repo. 
+
+Remote repo refer as origin.
+local repo refer to master.
+
+extra features for storing the files.
+- publish project
+- collaboration.
+
+90% of fortune 100 companies use the GitHub
+
+Feature offered by GitHub: Code, Plan, Collaborate, Automate, secure
+
+github provides 2 protocols for repo creation.
+- https
+- ssh
+
+GitHub using SSH
+- ensure local repo is ready
+- create a ssh key
+- config GitHub with ssh public key
+- create a GitHub repo
+- push from local to GitHub repo.
+
+--------------------------------------
+class 6 
+
+https
+	local repo: git init
+	add file to local repo: git add .
+	we have to commit it: git commit -m "first commit"
+	paste the link from GitHub repo
+	git push origin master
 
 
+https vs ssh
+https (recommended for most users)
+- it uses GitHub username and password.
+
+pros: 
+- easy to setup.
+- it works behind most firewalls and proxies.
+- it is recommended for most new users.
+
+
+SSH (used for automation & security)
+- no need to enter credentials repeatedly after setup
+- more security
+- best for automation (ci/cd)
+
+cons:
+- required SSH
+- May be blocked on restricted n/w (port 22 is sometime blocked)
+- more setup steps.
+
+
+Pull Commit from GitHub
+many times developer has to change the content. for that they need to bring back the file.
+
+command: git pull
+
+
+if you want to collaborate with local and remote repo. 
+we use 
+- git pull: use when you make some changes in remote repo and want in local repo
+- git push: use when you make some changes in local repo and want in remote repo
 
  
 
