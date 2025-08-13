@@ -316,10 +316,14 @@ we use
 - git pull: use when you make some changes in remote repo and want in local repo
 - git push: use when you make some changes in local repo and want in remote repo
 
+
+how git manage the multiple commits?
+lets assume that we have local and remote repo and changes are made at the same and in the same code.
  
 
-
-
+Merging file change in git.
+A user local repo change. 
+B user remote repo change.
  
 
 
