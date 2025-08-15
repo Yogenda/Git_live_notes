@@ -326,6 +326,54 @@ A user local repo change.
 B user remote repo change.
  
 
+issue tracking in GitHub.
+Issue are the place where we can raise bugs and track them.
+milestone
+
+--------------------------------
+class 9
+- branching
+- merging
+- stashing
+- cloning
+
+Branching
+most important topic
+"branching" refers to the process of creating a separate line of development
+separate workspace for experiment.
+
+Note: a branch is just a pointer to the commits. it doesn't change the contents of repository.
+
+git branch lets you do create, list, switch, merge branches 
+
+- git branch <branch name> -- create a new branch
+- git branch --- display all the list of branches in current repo
+- git checkout <branch name> -- switch to branch 
+- git merge <branch name> -- merge branches
+
+to create new branch and switch at once: 
+	git checkout -b <branch name>
+
+Note: when a new branch is created the complete commit history of master branch is replicated.
+
+git merge:
+- first analyze the diff -> previous
+- git diff is used for this
+
+How to merge?
+- switch to branch you want to merge
+- Execute git merge <from branch name>
+
+Types of merge:
+- Recursive merge
+- Fast Forward: used for hot fixes, used to fix bugs) 
+
+
+
+
+
+
+
 
 
 
